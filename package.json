@@ -1,0 +1,19 @@
+{
+  "name": "arbitrage-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+ "scripts": {
+  "start": "node dist/index.js",
+  "build": "tsc",
+  "dev": "nodemon --watch src --exec ts-node src/index.js"
+},
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ccxt": "^4.4.14"
+  },
+  "devDependencies": {
+  
+  }
+}
